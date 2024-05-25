@@ -1,4 +1,4 @@
-import len from "./len/v1";
+import len from "./len/v2";
 
 const test = <T>(expression: string, cb: () => T, expected: T) => {
   const title = `${expression} should be ${expected}`;
