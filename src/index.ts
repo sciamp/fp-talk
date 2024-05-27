@@ -1,4 +1,4 @@
-import len, { emptyList, manyItemsList, singletonList } from "./len/v6";
+import len, { emptyList, manyItemsList, singletonList } from "./len/v7";
 
 const test = <T>(expression: string, cb: () => T, expected: T) => {
   const title = `${expression} should be ${expected}`;
